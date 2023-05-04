@@ -1,0 +1,77 @@
+body {
+  background: #141414;
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} */
+
+/* ----------------- DESCTOP --------- */
+
+.header-nav-menu {
+  display: none;
+}
+
+.header-address {
+  display: none;
+}
+
+/* ----------------- DESCTOP --------- */
+
+/* ----------------- MOBILE --------- */
+
+/* ----------------- MOBILE --------- */
+
+.header-mobile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-mobile-burger {
+  width: 24px;
+  background-color: inherit;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.header-burger {
+  width: 20px;
+  height: 14px;
+  fill: #ffffff;
+}
